@@ -14,8 +14,8 @@ public class PageVisitEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private long id;
 
     @Temporal(TemporalType.TIMESTAMP)
-    private Date creation_date;
+    private Date creationDate;
 }
